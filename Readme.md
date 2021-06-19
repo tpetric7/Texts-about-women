@@ -3,5 +3,5 @@
 
 https://github.com/tpetric7/Texts-about-women
 
-- [Melania Trump](Melania-Trump.md)
+- [Melania Trump](docs/Melania-Trump.md)
 - Melania Trump: [html](docs/Melania-Trump.html)
