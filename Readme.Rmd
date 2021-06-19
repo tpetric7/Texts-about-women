@@ -1,0 +1,17 @@
+---
+title: "Texts about women"
+author: "Teodor Petrič"
+date: "2021-06-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+https://github.com/tpetric7/Reading-indices
+
+Quantitative analysis of German news articles about women using R packages (quanteda, tidytext and other).
+
+- [Melania Trump](Melania-Trump.Rmd)
+- Melania Trump: [html](docs/Melania-Trump.html)

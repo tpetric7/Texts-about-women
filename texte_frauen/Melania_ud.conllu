@@ -1,0 +1,2421 @@
+x
+# newdoc id = doc1
+# sent_id = 1
+# text = Folgt auf die Wahlniederlage die Scheidung?
+1	Folgt	folgen	VERB	ADJD	_	0	root	_	_
+2	auf	auf	ADP	APPR	_	4	case	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wahlniederlage	Wahlniederlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Scheidung	Scheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Nun ist es offiziell: Donald Trump (74) verliert die Wahl in den USA.
+1	Nun	nun	ADV	ADV	_	4	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+4	offiziell	offiziell	ADJ	XY	_	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	6	punct	_	_
+6	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+8	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	74	74	NUM	CARD	NumType=Card	6	appos	_	SpaceAfter=No
+10	)	)	PUNCT	$(	_	9	punct	_	_
+11	verliert	verlieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Aber verliert er dabei auch noch seine Ehefrau?
+1	Aber	aber	ADV	KON	_	2	advmod	_	_
+2	verliert	verlieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	dabei	dabei	ADV	PAV	_	2	advmod	_	_
+5	auch	auch	ADV	ADV	_	2	advmod	_	_
+6	noch	noch	ADV	CARD	NumType=Card	2	advmod	_	_
+7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
+8	Ehefrau	Ehefrau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Das zumindest behauptet eine ehemalige Trump-Angestellte im Weißen Haus.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	nsubj	_	_
+2	zumindest	zumindest	ADV	ADV	_	3	advmod	_	_
+3	behauptet	behaupten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+5	ehemalige	ehemalig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+6	Trump	Trump	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	Angestellte	Angestellte	NOUN	NN	Case=Nom|Number=Plur	3	obj	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	12	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+11	Weißen	weiß	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	_
+12	Haus	Haus	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Die TV-Persönlichkeit und Schriftstellerin Omarosa Manigault Newman (46), die bis zu ihrer Entlassung im Dezember 2017 Kommunikationsdirektorin des Büros des Weißen Hauses war, ist sich laut „Daily Mail“ sicher: „Melania zählt jede Minute, bis er aus dem Amt ist und sie sich scheiden lassen kann“, so Newman.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
+2	TV	TV	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+4	Persönlichkeit	Persönlichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	42	nsubj	_	_
+5	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	6	cc	_	_
+6	Schriftstellerin	Schriftstellerin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	_
+7	Omarosa	Omarosa	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	appos	_	_
+8	Manigault	Manigault	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	_
+9	Newman	Newman	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	flat	_	_
+10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	46	46	NUM	CARD	NumType=Card	7	appos	_	SpaceAfter=No
+12	)	)	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	23	punct	_	_
+14	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	23	nsubj	_	_
+15	bis	bis	ADP	APPR	_	18	case	_	_
+16	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	case	_	_
+17	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	18	det:poss	_	_
+18	Entlassung	Entlassung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	_
+19-20	im	_	_	_	_	_	_	_	_
+19	in	in	ADP	APPR	_	21	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Dezember	Dezember	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	_
+22	2017	2017	NUM	CARD	NumType=Card	21	nmod	_	_
+23	Kommunikationsdirektorin	Kommunikationsdirektorin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	acl	_	_
+24	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
+25	Büros	Büro	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+26	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
+27	Weißen	weiß	PROPN	ADJA	Case=Gen|Gender=Neut|Number=Sing	28	amod	_	_
+28	Hauses	Haus	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+29	war	sein	AUX	ADV	_	23	cop	_	SpaceAfter=No
+30	,	,	PUNCT	$,	_	4	punct	_	_
+31	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+32	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	42	nsubj	_	_
+33	laut	laut	ADP	ADJD	_	35	case	_	_
+34	„	„	PUNCT	$.	_	35	punct	_	SpaceAfter=No
+35	Daily	Daily	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	42	obl	_	_
+36	Mail	Mailen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	35	flat	_	SpaceAfter=No
+37	“	“	PUNCT	$.	_	38	punct	_	_
+38	sicher	sicher	ADJ	VVINF	VerbForm=Inf	42	xcomp	_	SpaceAfter=No
+39	:	:	PUNCT	$.	_	38	punct	_	SpacesAfter=\n
+40	„	„	PUNCT	$.	_	42	punct	_	SpaceAfter=No
+41	Melania	Melania	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	_
+42	zählt	zählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+43	jede	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	44	det	_	_
+44	Minute	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	$,	_	56	punct	_	_
+46	bis	bis	SCONJ	KOUS	_	56	mark	_	_
+47	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	_
+48	aus	aus	ADP	APPR	_	50	case	_	_
+49	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	50	det	_	_
+50	Amt	Amt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	56	obl	_	_
+51	ist	sein	AUX	ADJD	_	50	cop	_	_
+52	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	56	cc	_	_
+53	sie	sie	PRON	VVINF	VerbForm=Inf	56	nsubj	_	_
+54	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	56	obj	_	_
+55	scheiden	scheiden	VERB	VVINF	VerbForm=Inf	56	xcomp	_	_
+56	lassen	lassen	VERB	VVINF	VerbForm=Inf	44	advcl	_	_
+57	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	SpaceAfter=No
+58	“	“	PUNCT	$.	_	56	punct	_	SpaceAfter=No
+59	,	,	PUNCT	$,	_	61	punct	_	_
+60	so	so	ADV	NE	Case=Dat|Number=Plur	61	advmod	_	_
+61	Newman	Newman	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	42	appos	_	SpaceAfter=No
+62	.	.	PUNCT	$.	_	42	punct	_	_
+
+# sent_id = 6
+# text = Die Ehe sei praktisch vorbei.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ehe	Ehe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	praktisch	praktisch	ADJ	XY	NumType=Card	5	advmod	_	_
+5	vorbei	vorbei	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Bei Twitter stellte sich Melania jedoch am Sonntagmittag (Ortszeit) demonstrativ hinter ihren Ehemann.
+1	Bei	bei	ADP	APPR	_	2	case	_	_
+2	Twitter	Twitter	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	stellte	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	jedoch	jedoch	ADV	ADV	_	3	advmod	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Sonntagmittag	Sonntagmittag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Ortszeit	Ortszeit	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	$(	_	11	punct	_	_
+13	demonstrativ	demonstrativ	PROPN	ADJD	_	3	nsubj	_	_
+14	hinter	hinter	ADP	APPR	_	16	case	_	_
+15	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	16	det:poss	_	_
+16	Ehemann	Ehemann	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sie schrieb dort: „Das amerikanische Volk verdient faire Wahlen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	schrieb	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dort	dort	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	9	punct	_	_
+5	„	„	PUNCT	$.	_	9	punct	_	SpaceAfter=No
+6	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	amerikanische	amerikanisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
+8	Volk	Volk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	verdient	verdienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	faire	fair	ADJ	NN	Case=Acc|Gender=Masc|Number=Plur	11	amod	_	_
+11	Wahlen	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Jede legale Stimme muss gezählt werden – die illegalen nicht.
+1	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+2	legale	legal	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Stimme	Stimme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	gezählt	zählen	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	werden	werden	AUX	NE	Case=Acc|Number=Plur	5	aux:pass	_	_
+7	–	–	PUNCT	$.	_	10	punct	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	illegalen	illegal	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Wir müssen unsere Demokratie mit vollständiger Transparenz schützen“
+1	Wir	wir	PRON	ADJD	_	8	nsubj	_	_
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Poss=Yes	4	det:poss	_	_
+4	Demokratie	Demokratie	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	8	obj	_	_
+5	mit	mit	ADP	$(	_	7	case	_	_
+6	vollständiger	vollständig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	_
+7	Transparenz	Transparenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	schützen	schützen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	“	“	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n\n
+
+# sent_id = 11
+# text = Stärkt Melania dem gefallenen US-Präsidenten nun den Rücken – oder ist sie in Wirklichkeit noch weiter von ihm abgerückt?
+1	Stärkt	Stärken	NOUN	VVPP	VerbForm=Part	0	root	_	_
+2	Melania	Melania	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	1	appos	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	gefallenen	gefallen	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	5	amod	_	_
+5	US	US	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	compound	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Präsidenten	Präsident	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	_
+8	nun	nun	ADV	ADV	_	10	advmod	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Rücken	Rücken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+11	–	–	PUNCT	$.	_	1	punct	_	_
+12	oder	oder	CCONJ	XY	_	21	cc	_	_
+13	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+14	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+15	in	in	ADP	APPR	_	16	case	_	_
+16	Wirklichkeit	Wirklichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
+17	noch	noch	ADV	NE	Case=Dat|Gender=Fem|Number=Sing	21	advmod	_	_
+18	weiter	weiter	ADV	NE	Case=Dat|Gender=Fem|Number=Sing	21	advmod	_	_
+19	von	von	ADP	FM	Foreign=Yes	20	case	_	_
+20	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+21	abgerückt	abgerücken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+22	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Zuvor hatte CNN jedoch berichtet, auch Melania habe sich nun denjenigen im engen Umfeld Trumps angeschlossen, die ihm dazu raten, seine Niederlage zu akzeptieren.
+1	Zuvor	zuvor	ADV	ADV	_	5	advmod	_	_
+2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	CNN	CNN	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	jedoch	jedoch	ADV	ADV	_	5	advmod	_	_
+5	berichtet	berichten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	18	punct	_	_
+7	auch	auch	ADV	ADV	_	8	advmod	_	_
+8	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+9	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	_
+11	nun	nun	ADV	ADV	_	18	advmod	_	_
+12	denjenigen	derjenige	PRON	PDS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	16	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+15	engen	eng	ADJ	ADJA	_	16	amod	_	_
+16	Umfeld	Umfeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	_
+17	Trumps	Trumps	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	16	appos	_	_
+18	angeschlossen	anschließen	ADJ	VVPP	VerbForm=Part	5	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	23	punct	_	_
+20	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	23	nsubj	_	_
+21	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+22	dazu	dazu	PRON	PAV	_	23	dep	_	_
+23	raten	raten	VERB	NE	Case=Acc|Number=Plur	18	acl	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	28	punct	_	_
+25	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	26	det:poss	_	_
+26	Niederlage	Niederlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+27	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	28	mark	_	_
+28	akzeptieren	akzeptieren	VERB	VVINF	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# sent_id = 13
+# text = Für Omarosa Manigault Newman ist die Sachlage weiterhin klar: Melania will nicht mehr!
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	Omarosa	Omarosa	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+3	Manigault	Manigault	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	2	flat	_	_
+4	Newman	Newman	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	flat	_	_
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Sachlage	Sachlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	weiterhin	weiterhin	ADV	ADV	_	9	advmod	_	_
+9	klar	klar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	$.	_	12	punct	_	_
+11	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	will	wollen	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	_
+13	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advmod	_	_
+14	mehr	mehr	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+15	!	!	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 14
+# text = Doch mindestens bis zum Trump-Ausscheiden aus dem Amt müsse Melania es noch aushalten: „Falls Melania diese ultimative Demütigung wagen sollte und ihn noch während seiner Zeit im Amt verlassen würde, würde er einen Weg finden, sie dafür zu bestrafen.“
+1	Doch	doch	ADV	KON	_	16	advmod	_	_
+2	mindestens	mindestens	ADV	ADV	_	6	advmod	_	_
+3	bis	bis	ADP	APPR	_	6	case	_	_
+4-5	zum	_	_	_	_	_	_	_	_
+4	zu	zu	ADP	NN	Case=Dat|Gender=Fem|Number=Plur	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Trump	Trump	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Ausscheiden	Ausscheiden	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	flat	_	_
+9	aus	aus	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Amt	Amt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+12	müsse	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+14	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+15	noch	noch	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	16	advmod	_	_
+16	aushalten	aushalten	VERB	VVINF	VerbForm=Inf	42	aux	_	SpaceAfter=No
+17	:	:	PUNCT	$.	_	24	punct	_	_
+18	„	„	PUNCT	$.	_	24	punct	_	SpaceAfter=No
+19	Falls	Fall	PROPN	KOUS	_	24	nsubj	_	_
+20	Melania	Melania	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	19	flat	_	_
+21	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+22	ultimative	ultimativ	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	23	amod	_	_
+23	Demütigung	Demütigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+24	wagen	wagen	VERB	VVINF	VerbForm=Inf	16	parataxis	_	_
+25	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+26	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	24	cc	_	_
+27	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+28	noch	noch	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	24	advmod	_	_
+29	während	während	ADP	NN	Case=Gen|Gender=Masc|Number=Plur	31	case	_	_
+30	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	31	det:poss	_	_
+31	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	35	obl	_	_
+32-33	im	_	_	_	_	_	_	_	_
+32	in	in	ADP	APPR	_	34	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	34	det	_	_
+34	Amt	Amt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	35	obl	_	_
+35	verlassen	verlassen	VERB	NN	Case=Gen|Gender=Fem|Number=Plur	24	xcomp	_	_
+36	würde	werden	AUX	NE	Case=Nom|Number=Sing	24	aux	_	SpaceAfter=No
+37	,	,	PUNCT	$,	_	24	punct	_	_
+38	würde	werden	AUX	NE	Case=Nom|Number=Sing	16	aux	_	_
+39	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+40	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Weg	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	42	obj	_	_
+42	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+43	,	,	PUNCT	$,	_	47	punct	_	_
+44	sie	sie	PRON	VVINF	VerbForm=Inf	47	obj	_	_
+45	dafür	dafür	ADV	PAV	_	47	advmod	_	_
+46	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	47	mark	_	_
+47	bestrafen	bestrafen	VERB	VVINF	VerbForm=Inf	42	xcomp	_	SpaceAfter=No
+48	.	.	PUNCT	$.	_	42	punct	_	SpaceAfter=No
+49	“	“	PUNCT	$.	_	42	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Trump soll sich laut Experten mit einem auf Schweigen beruhenden Ehevertrag, ähnlich wie mit seiner zweiten Frau Marla Maples (57), abgesichert haben.
+1	Trump	Trump	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	25	advmod	_	_
+2	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	25	aux	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
+4	laut	laut	ADP	APPR	_	5	case	_	_
+5	Experten	Experte	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	25	obl	_	_
+6	mit	mit	ADP	$(	_	11	case	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+8	auf	auf	ADP	APPR	_	9	case	_	_
+9	Schweigen	schweige	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	_
+10	beruhenden	beruhend	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+11	Ehevertrag	Ehevertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	ähnlich	ähnlich	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+14	wie	wie	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	18	case	_	_
+15	mit	mit	ADP	$(	_	18	case	_	_
+16	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	18	det:poss	_	_
+17	zweiten	zweit	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	18	amod	_	_
+18	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+19	Marla	Marla	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	18	appos	_	_
+20	Maples	Maple	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	19	flat	_	_
+21	(	(	PUNCT	$(	_	22	punct	_	SpaceAfter=No
+22	57	57	NUM	CARD	NumType=Card	19	appos	_	SpaceAfter=No
+23	)	)	PUNCT	$(	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	11	punct	_	_
+25	abgesichert	absichern	VERB	VVPP	VerbForm=Part	0	root	_	_
+26	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	25	punct	_	_
+
+# sent_id = 16
+# text = Dieser hindere Maples daran, ein Buch zu veröffentlichen oder kritische Interviews über ihn zu geben.
+1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	hindere	hindern	VERB	ADJA	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	Maples	Maples	PRON	NE	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+4	daran	daran	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Buch	Buch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+8	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	mark	_	_
+9	veröffentlichen	veröffentlichen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
+10	oder	oder	CCONJ	XY	_	16	cc	_	_
+11	kritische	kritisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	12	amod	_	_
+12	Interviews	Interview	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	obj	_	_
+13	über	über	ADP	FM	Foreign=Yes	14	case	_	_
+14	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+15	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	16	mark	_	_
+16	geben	geben	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Rechtsanwältin Christina Previte sagte „Daily Mail“, es sei wahrscheinlich, dass Melania einem ähnlichen Schweigekodex im Ehevertrag zugestimmt habe.
+1	Rechtsanwältin	Rechtsanwältin	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	_
+2	Christina	Christina	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+3	Previte	Previte	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	„	„	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+6	Daily	Daily	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
+7	Mail	Mailen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	SpaceAfter=No
+8	“	“	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+11	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	4	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	22	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+15	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+16	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	ähnlichen	ähnlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	18	amod	_	_
+18	Schweigekodex	Schweigekodex	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obj	_	_
+19-20	im	_	_	_	_	_	_	_	_
+19	in	in	ADP	APPR	_	21	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Ehevertrag	Ehevertrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	_
+22	zugestimmt	zustimmen	VERB	VVPP	VerbForm=Part	12	csubj	_	_
+23	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Aber: Könnte der Ehevertrag zwischen Donald und Melania neu verhandelt werden?
+1	Aber	aber	CCONJ	KON	_	11	cc	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	1	punct	_	_
+3	Könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ehevertrag	Ehevertrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+6	zwischen	zwischen	ADP	ADJA	Case=Dat|Gender=Masc|Number=Sing	7	case	_	_
+7	Donald	Donald	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+8	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	9	cc	_	_
+9	Melania	Melania	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	neu	neu	ADJ	NN	NumType=Card	11	advmod	_	_
+11	verhandelt	verhandeln	VERB	VVPP	VerbForm=Part	0	root	_	_
+12	werden	werden	AUX	NE	Case=Acc|Number=Plur	11	aux:pass	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 19
+# text = Das behauptet zumindest die ehemalige Assistentin Stephanie Wolkoff (50).
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	behauptet	behaupten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	zumindest	zumindest	ADV	ADV	_	2	advmod	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	ehemalige	ehemalig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Assistentin	Assistentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+7	Stephanie	Stephanie	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+8	Wolkoff	Wolkoff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+9	(	(	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	50	50	NUM	CARD	NumType=Card	7	appos	_	SpaceAfter=No
+11	)	)	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 20
+# text = Es gehe darum, Sohn Barron (14) einen gleichen Anteil am Trump-Vermögen zu geben.
+1	Es	es	PRON	PPER	PronType=Prs	2	expl	_	_
+2	gehe	gehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	darum	darum	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	Sohn	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	Barron	Barron	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
+7	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	14	14	NUM	CARD	NumType=Card	5	appos	_	SpaceAfter=No
+9	)	)	PUNCT	$(	_	8	punct	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	gleichen	gleich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+12	Anteil	Anteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+13-14	am	_	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Trump	Trump	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	Vermögen	Vermögen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	flat	_	_
+18	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	mark	_	_
+19	geben	geben	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Gleiches schildert auch Mary Jordans Buch „The Art of Her Deal: The Untold Story of Melania Trump“.
+1	Gleiches	Gleiche	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	schildert	schildern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	_
+4	Mary	Mary	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+5	Jordans	Jordans	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+6	Buch	Buch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	flat	_	_
+7	„	„	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+8	The	The	PROPN	NE	Foreign=Yes	2	nmod	_	_
+9	Art	Art	PROPN	NE	Foreign=Yes	8	flat	_	_
+10	of	of	PROPN	NE	Foreign=Yes	8	flat	_	_
+11	Her	her	PROPN	ADV	_	8	flat	_	_
+12	Deal	deal	PROPN	FM	Foreign=Yes	8	flat	_	SpaceAfter=No
+13	:	:	PUNCT	$.	_	14	punct	_	_
+14	The	The	PROPN	NE	Foreign=Yes	2	nmod	_	_
+15	Untold	Untold	PROPN	NE	Foreign=Yes	14	flat	_	_
+16	Story	Story	PROPN	NE	Foreign=Yes	14	flat	_	_
+17	of	of	PROPN	NE	Foreign=Yes	14	flat	_	_
+18	Melania	Melania	PROPN	NE	Foreign=Yes	14	flat	_	_
+19	Trump	Trump	PROPN	NE	Case=Dat|Number=Sing	14	flat	_	SpaceAfter=No
+20	“	“	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 22
+# text = Dort heißt es: „Sie wollte einen schriftlichen Nachweis dafür, dass Barron in Bezug auf finanzielle Möglichkeiten und Erbschaft den drei ältesten Kindern von Trump eher gleichgestellt sein würde.“
+1	Dort	dort	ADV	ADV	_	2	advmod	_	_
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	7	punct	_	_
+5	„	„	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+6	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	wollte	wollen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	schriftlichen	schriftlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	Nachweis	Nachweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+11	dafür	dafür	PRON	PAV	_	29	dep	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	dass	dass	SCONJ	KOUS	_	29	mark	_	_
+14	Barron	Barron	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+15	in	in	ADP	APPR	_	16	case	_	_
+16	Bezug	Bezug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	29	nmod	_	_
+17	auf	auf	ADP	APPR	_	19	case	_	_
+18	finanzielle	finanziell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	19	amod	_	_
+19	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	nmod	_	_
+20	und	und	CCONJ	NE	Foreign=Yes	21	cc	_	_
+21	Erbschaft	Erbschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	_
+22	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+23	drei	drei	NUM	CARD	NumType=Card	25	nummod	_	_
+24	ältesten	alt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	25	amod	_	_
+25	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	29	iobj	_	_
+26	von	von	ADP	FM	Foreign=Yes	27	case	_	_
+27	Trump	Trump	PROPN	NE	Case=Dat|Number=Sing	25	nmod	_	_
+28	eher	eher	ADV	ADV	_	29	advmod	_	_
+29	gleichgestellt	gleichstellen	ADJ	VVPP	VerbForm=Part	10	ccomp	_	_
+30	sein	sein	AUX	VAINF	VerbForm=Inf	29	cop	_	_
+31	würde	werden	AUX	NE	Case=Nom|Number=Sing	29	aux	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+33	“	“	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Mindestens aber habe Melania die „Konditionen verbessert“, als sie vor rund vier Jahren First Lady wurde.
+1	Mindestens	mindestens	ADV	ADV	_	2	advmod	_	_
+2	aber	aber	ADV	ADV	_	8	advmod	_	_
+3	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	Melania	Melania	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+6	„	„	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+7	Konditionen	Kondition	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+8	verbessert	verbessern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	“	“	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	19	punct	_	_
+11	als	als	SCONJ	KOUS	_	19	mark	_	_
+12	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+13	vor	vor	ADP	NE	Case=Gen|Gender=Fem|Number=Sing	16	case	_	_
+14	rund	rund	ADV	ADV	_	15	advmod	_	_
+15	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	16	nummod	_	_
+16	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	19	nmod	_	_
+17	First	First	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	18	amod	_	_
+18	Lady	Lady	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	appos	_	_
+19	wurde	werden	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	8	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 24
+# text = Darin ist sich die New Yorker Anwaltskanzlei Berkman Bottger Newman & Schein laut „Business Insider“ sicher.
+1	Darin	darin	ADV	PAV	_	15	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	nsubj	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	New	New	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+6	Yorker	Yorker	PROPN	ADJA	_	5	flat	_	_
+7	Anwaltskanzlei	Anwaltskanzlei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nsubj	_	_
+8	Berkman	Berkman	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	appos	_	_
+9	Bottger	Bottger	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+10	Newman	Newman	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	flat	_	_
+11	&	&	SYM	NE	_	12	cc	_	_
+12	Schein	Schein	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	conj	_	_
+13	laut	laut	ADJ	ADJD	_	15	amod	_	_
+14	„	„	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+15	Business	Busineß	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+16	Insider	Insider	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
+17	“	“	PUNCT	$.	_	15	punct	_	_
+18	sicher	sicher	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = <U+25B6><U+FE0E> Dass Melania nie so richtig First Lady der USA sein wollte, wurde schon bei Donalds Amtsantritt 2016 gemunkelt.
+1	<U+25B6><U+FE0E>	<U+25B6><U+FE0E>	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+2	Dass	dass	PROPN	KOUS	_	11	nsubj	_	_
+3	Melania	Melania	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
+4	nie	nie	ADV	ADV	_	2	advmod	_	_
+5	so	so	ADV	NE	Case=Dat|Number=Plur	7	advmod	_	_
+6	richtig	richtig	ADJ	ADJD	_	7	amod	_	_
+7	First	First	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+8	Lady	Lady	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	USA	USA	PROPN	NE	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	sein	sein	VERB	VAINF	VerbForm=Inf	20	acl	_	_
+12	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	11	punct	_	_
+14	wurde	werden	AUX	KON	_	20	aux:pass	_	_
+15	schon	schon	ADV	ADV	_	20	advmod	_	_
+16	bei	bei	ADP	APPR	_	18	case	_	_
+17	Donalds	Donald	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+18	Amtsantritt	Amtsantritt	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+19	2016	2016	NUM	CARD	NumType=Card	18	appos	_	_
+20	gemunkelt	gemunkelt	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 26
+# text = Melania soll damals sogar geweint haben.
+1	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	5	aux	_	_
+3	damals	damals	ADV	ADV	_	5	advmod	_	_
+4	sogar	sogar	ADV	ADV	_	5	advmod	_	_
+5	geweint	weinen	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 27
+# text = Ein Freund sagte über den überraschenden Wahlsieg 2016: „Sie hat nie damit gerechnet, dass er gewinnen würde.“
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Freund	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	über	über	ADP	FM	Foreign=Yes	7	case	_	_
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	überraschenden	überraschend	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Wahlsieg	Wahlsieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+8	2016	2016	NUM	CARD	NumType=Card	12	nsubj	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	12	punct	_	_
+10	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+13	nie	nie	ADV	ADV	_	12	advmod	_	_
+14	damit	damit	ADV	PAV	_	12	advmod	_	_
+15	gerechnet	rechnen	ADJ	VVPP	VerbForm=Part	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	_
+17	dass	dass	SCONJ	KOUS	_	19	mark	_	_
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	gewinnen	gewinnen	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	15	ccomp	_	_
+20	würde	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Sing	19	aux	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	15	punct	_	SpaceAfter=No
+22	“	“	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Außerdem zog sie erst fünf Monate später ins Weiße Haus ein.
+1	Außerdem	außerdem	ADV	PAV	_	2	advmod	_	_
+2	zog	ziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+4	erst	erst	ADV	ADV	_	5	advmod	_	_
+5	fünf	fünf	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+7	später	spät	ADJ	ADJD	_	2	advmod	_	_
+8-9	ins	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	11	case	_	_
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+10	Weiße	weiß	PROPN	ADJA	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	_
+11	Haus	Haus	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+12	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 29
+# text = Die offizielle Begründung: Sohn Barron solle die Schule beenden.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	offizielle	offiziell	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Begründung	Begründung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	5	punct	_	_
+5	Sohn	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+6	Barron	Barron	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
+7	solle	sollen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Schule	Schule	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	beenden	beenden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Die Ehe zwischen beiden scheint schon länger auf Eis zu liegen, unterkühlte Fotos und Video-Mitschnitte von Auftritten der beiden gibt es so einige.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ehe	Ehe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	zwischen	zwischen	ADP	ADJA	Case=Acc|Gender=Masc|Number=Sing	4	case	_	_
+4	beiden	beide	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	_
+5	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	schon	schon	ADV	ADV	_	7	advmod	_	_
+7	länger	lang	ADV	ADJD	_	5	advmod	_	_
+8	auf	auf	ADP	APPR	_	9	case	_	_
+9	Eis	Eis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+10	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	mark	_	_
+11	liegen	liegen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	unterkühlte	unterkühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl	_	_
+14	Fotos	Foto	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+15	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	18	cc	_	_
+16	Video	Video	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+18	Mitschnitte	Mitschnitte	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+19	von	von	ADP	FM	Foreign=Yes	20	case	_	_
+20	Auftritten	Auftritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	beiden	beide	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	20	nmod	_	_
+23	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+24	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	_
+25	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	23	advmod	_	_
+26	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	23	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = Die Ex-Assistentin Wolkoff behauptet, die Trumps hätten getrennte Schlafzimmer im Weißen Haus und führten „eine transaktionale Ehe“ – also eine auf wechselseitigen Gefallen beruhende Ehe.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+2	Ex	Ex	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+4	Assistentin	Assistentin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	Wolkoff	Wolkoff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	behauptet	behaupten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Trumps	Trumps	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	getrennte	getrennt	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	_
+12	Schlafzimmer	Schlafzimmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	16	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+15	Weißen	weiß	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	16	amod	_	_
+16	Haus	Haus	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	18	cc	_	_
+18	führten	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+19	„	„	PUNCT	$.	_	22	punct	_	SpaceAfter=No
+20	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	transaktionale	transaktional	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	22	amod	_	_
+22	Ehe	Ehe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+23	“	“	PUNCT	$.	_	31	punct	_	_
+24	–	–	PUNCT	$.	_	31	punct	_	_
+25	also	also	ADV	ADV	_	31	advmod	_	_
+26	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+27	auf	auf	ADP	APPR	_	29	case	_	_
+28	wechselseitigen	wechselseitig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	29	amod	_	_
+29	Gefallen	Gefallen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	30	nmod	_	_
+30	beruhende	beruhend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	31	amod	_	_
+31	Ehe	Ehe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 32
+# text = Ein US-Präsident ohne Ehefrau wäre schließlich unvorstellbar.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	US	US	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+5	ohne	ohne	ADP	FM	Foreign=Yes	6	case	_	_
+6	Ehefrau	Ehefrau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+7	wäre	sein	AUX	NN	Foreign=Yes	9	cop	_	_
+8	schließlich	schließlich	ADV	ADV	_	9	advmod	_	_
+9	unvorstellbar	unvorstellbar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 33
+# text = Schon gar nicht einer, der während seiner Amtszeit eine Scheidung durchmacht.
+1	Schon	schon	ADV	ADV	_	3	advmod	_	_
+2	gar	gar	ADV	ADV	_	3	advmod	_	_
+3	nicht	nicht	PART	CARD	NumType=Card	4	advmod	_	_
+4	einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	der	der	PRON	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	nsubj	_	_
+7	während	während	ADP	ADJA	Case=Acc|Gender=Masc|Number=Plur	9	case	_	_
+8	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	_
+9	Amtszeit	Amtszeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Scheidung	Scheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+12	durchmacht	durchmachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = Dennoch: Trotz frostiger Momente in der Öffentlichkeit, behauptete Melania stets, sie habe „eine großartige Beziehung“ zu ihrem Mann.
+1	Dennoch	dennoch	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	1	punct	_	_
+3	Trotz	Trotz	ADP	APPR	_	5	case	_	_
+4	frostiger	frostig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	5	amod	_	_
+5	Momente	Moment	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	10	obl	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Öffentlichkeit	Öffentlichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	5	punct	_	_
+10	behauptete	behauptet	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Melania	Melania	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	stets	stets	ADV	NN	Case=Dat|Number=Plur	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	sie	sie	PRON	VVINF	VerbForm=Inf	15	nsubj	_	_
+15	habe	haben	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+16	„	„	PUNCT	$.	_	19	punct	_	SpaceAfter=No
+17	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	großartige	großartig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	_
+19	Beziehung	Beziehung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+20	“	“	PUNCT	$.	_	19	punct	_	_
+21	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	case	_	_
+22	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	23	det:poss	_	_
+23	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 35
+# text = Donald wiederum behauptete einmal, dass sie sich NIE streiten würden …
+1	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	wiederum	wiederum	ADV	ADV	_	1	advmod	_	_
+3	behauptete	behaupten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	einmal	einmal	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+7	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+9	NIE	nie	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	streiten	streiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	würden	werden	AUX	NN	Foreign=Yes	10	aux	_	_
+12	…	…	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# newdoc id = doc2
+# sent_id = 1
+# text = Donald Trump hat die Wahl verloren.
+1	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	verloren	verlieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Doch anstelle dem Wahlsieger zu gratulieren, wütete er via Twitter weiter.
+1	Doch	doch	ADV	KON	_	6	advmod	_	_
+2	anstelle	anstelle	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Wahlsieger	Wahlsieger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
+5	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	6	mark	_	_
+6	gratulieren	gratulieren	VERB	VVINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	wütete	wüten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+10	via	via	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
+11	Twitter	Twitter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
+12	weiter	weiter	ADV	ADV	_	8	compound:prt	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Er stellt sich als Opfer von Wahlbetrug dar und behauptet unter anderem: "Wir glauben, dass diese Leute Diebe sind.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	als	als	ADP	KOKOM	_	5	case	_	_
+5	Opfer	Opfer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	_
+6	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+7	Wahlbetrug	Wahlbetrug	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+8	dar	dar	ADV	PTKVZ	_	2	compound:prt	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	10	cc	_	_
+10	behauptet	behaupten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	unter	unter	ADP	ADJD	_	12	case	_	_
+12	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	obl	_	SpaceAfter=No
+13	:	:	PUNCT	$.	_	16	punct	_	_
+14	"	"	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+15	Wir	wir	PRON	FM	Foreign=Yes	16	nsubj	_	_
+16	glauben	glauben	VERB	VVINF	VerbForm=Inf	10	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	22	punct	_	_
+18	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+19	diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	20	det	_	_
+20	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	22	nsubj	_	_
+21	Diebe	Dieb	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	sind	sein	VERB	ADJD	_	16	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Die Großstadtmaschinen sind korrupt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Großstadtmaschinen	Großstadtmaschine	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	sind	sein	AUX	ADJD	_	4	cop	_	_
+4	korrupt	korrupt	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Dies war eine gestohlene Wahl."
+1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	war	sein	AUX	ADV	_	5	cop	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	gestohlene	gestohlen	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+7	"	"	PUNCT	$(	_	5	punct	_	_
+
+# sent_id = 6
+# text = In den Staaten Pennsylvania, Michigan, Georgia und Nevada hat er bereits Klage eingereicht.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Staaten	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+4	Pennsylvania	Pennsylvania	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Michigan	Michigan	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Georgia	Georgia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	conj	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	10	cc	_	_
+10	Nevada	Nevada	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	conj	_	_
+11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	bereits	bereits	ADV	ADV	_	15	advmod	_	_
+14	Klage	Klage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+15	eingereicht	einreichen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ein Indiz, wie sehr im Weißen Haus die Luft brennt: Donald Trump verbrachte einen Großteil des Wochenendes auf dem Golfplatz.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Indiz	Indiz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	9	punct	_	_
+4	wie	wie	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	9	case	_	_
+5	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	9	advmod	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	9	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+8	Weißen	weiß	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	9	amod	_	_
+9	Haus	Haus	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+12	brennt	brennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	$.	_	16	punct	_	_
+14	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	_
+16	verbrachte	verbringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Großteil	Großteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+19	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Wochenendes	Wochenende	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	auf	auf	ADP	APPR	_	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Golfplatz	Golfplatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Denn ganz offensichtlich spaltete die Frage wie sich der Präsident zum Wahlsieg Bidens verhalten soll, sogar seinen innersten Zirkel.
+1	Denn	denn	ADV	KON	_	4	advmod	_	_
+2	ganz	ganz	ADV	ADV	_	3	advmod	_	_
+3	offensichtlich	offensichtlich	ADJ	ADJD	_	4	advmod	_	_
+4	spaltete	spalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	8	case	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	_
+9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+11-12	zum	_	_	_	_	_	_	_	_
+11	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Wahlsieg	Wahlsieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+14	Bidens	Biden	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	verhalten	verhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+16	soll	sollen	AUX	NN	Case=Gen|Gender=Fem|Number=Sing	15	aux	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	21	punct	_	_
+18	sogar	sogar	ADV	ADV	_	21	advmod	_	_
+19	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	21	det:poss	_	_
+20	innersten	inner	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	_
+21	Zirkel	Zirkel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Während First Lady Melania und Trump-Schwiegersohn Jared Kushner den Präsidenten laut eines Berichts des US-Nachrichtensenders CNN dazu drängen, die Niederlage zu akzeptieren, geben sich seine Söhne Donald Jr. und Eric weiterhin kämpferisch.
+1	Während	während	ADP	KOUS	_	3	case	_	_
+2	First	First	PROPN	ADV	_	3	amod	_	_
+3	Lady	Lady	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	22	obl	_	_
+4	Melania	Melania	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	_
+5	und	und	CCONJ	NE	Foreign=Yes	6	cc	_	_
+6	Trump	Trump	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Schwiegersohn	Schwiegersohn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	flat	_	_
+9	Jared	Jared	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	6	appos	_	_
+10	Kushner	Kushner	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	9	flat	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Präsidenten	Präsident	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+13	laut	laut	ADP	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	case	_	_
+14	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Berichts	Bericht	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	US	US	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+19	Nachrichtensenders	Nachrichtensenders	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	17	flat	_	_
+20	CNN	CNN	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	17	appos	_	_
+21	dazu	dazu	PRON	PAV	_	22	dep	_	_
+22	drängen	dringen|drängen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	27	punct	_	_
+24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Niederlage	Niederlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+26	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	27	mark	_	_
+27	akzeptieren	akzeptieren	VERB	VVINF	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	29	punct	_	_
+29	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_
+30	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	29	obj	_	_
+31	seine	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	32	det:poss	_	_
+32	Söhne	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+33	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	32	appos	_	_
+34	Jr	Jr	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	33	flat	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	33	punct	_	_
+36	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	37	cc	_	_
+37	Eric	eric	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	33	conj	_	_
+38	weiterhin	weiterhin	ADV	ADV	_	29	advmod	_	_
+39	kämpferisch	kämpferisch	ADJ	ADJD	_	29	xcomp	_	SpaceAfter=No
+40	.	.	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 10
+# text = Sie unterstützen ihren Vater darin, weiterhin juristisch gegen die Wahl vorzugehen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	unterstützen	unterstützen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	4	det:poss	_	_
+4	Vater	Vater	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	darin	darin	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	weiterhin	weiterhin	ADV	ADV	_	8	advmod	_	_
+8	juristisch	juristisch	ADJ	ADJD	_	12	advmod	_	_
+9	gegen	gegen	ADP	APPR	_	11	case	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+12	vorzugehen	vorgehen	VERB	VVIZU	VerbForm=Inf	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Surftipp: Alle Neuigkeiten zum Coronavirus finden Sie im News-Ticker von FOCUS Online Sollte es wirklich eine Spaltung innerhalb seiner Familie geben, hätte das enorme Folgen.
+1	Surftipp	Surftip	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	4	punct	_	_
+3	Alle	alle	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	_
+4	Neuigkeiten	Neuigkeit	NOUN	VVINF	VerbForm=Inf	1	appos	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Coronavirus	Coronavirus	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+8	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	News	New	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Ticker	Ticker	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	12	flat	_	_
+15	von	von	ADP	NE	Case=Dat|Gender=Masc|Number=Sing	16	case	_	_
+16	FOCUS	Focus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
+17	Online	online	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	16	flat	_	SpacesAfter=\n
+18	Sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+20	wirklich	wirklich	ADV	ADV	_	8	advmod	_	_
+21	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Spaltung	Spaltung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+23	innerhalb	innerhalb	ADP	APPR	_	25	case	_	_
+24	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	25	det:poss	_	_
+25	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	_
+26	geben	geben	VERB	VVINF	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	28	punct	_	_
+28	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+29	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	31	det	_	_
+30	enorme	enorm	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	31	amod	_	_
+31	Folgen	Folge	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 12
+# text = Denn Donald Trump tickt auch bezüglich der personellen Aufstellung seines Teams anders als andere Top-Politiker.
+1	Denn	denn	SCONJ	KON	_	4	mark	_	_
+2	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	tickt	ticken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	auch	auch	ADV	ADV	_	4	advmod	_	_
+6	bezüglich	bezüglich	ADP	APPR	_	9	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	personellen	personell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	_
+9	Aufstellung	Aufstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+10	seines	sein	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	11	det:poss	_	_
+11	Teams	Team	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	anders	anders	ADV	ADV	_	4	advmod	_	_
+13	als	als	ADP	KOKOM	_	17	case	_	_
+14	andere	ander	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	_
+15	Top	Top	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	Politiker	Politiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Während der engste Kreis von Ministern oder Staatoberhäuptern normalerweise aus Top-Beratern besteht, verließ sich Trump von Anfang an vor allem auf seine Familie.
+1	Während	während	ADP	KOUS	_	14	mark	_	_
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	engste	engste	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	Kreis	Kreis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+6	Ministern	Minister	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+7	oder	oder	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	8	cc	_	_
+8	Staatoberhäuptern	Staatoberhäupter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+9	normalerweise	normalerweise	ADV	ADV	_	14	advmod	_	_
+10	aus	aus	ADP	APPR	_	13	case	_	_
+11	Top	Top	NOUN	NN	_	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	Beratern	Berater	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
+14	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	14	punct	_	_
+16	verließ	verlassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+18	Trump	Trump	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+19	von	von	ADP	NE	Case=Acc|Gender=Masc|Number=Sing	20	case	_	_
+20	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+21	an	an	ADP	APPR	_	20	case	_	_
+22	vor	vor	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	23	case	_	_
+23	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	obl	_	_
+24	auf	auf	ADP	APPR	_	26	case	_	_
+25	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	26	det:poss	_	_
+26	Familie	Familie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 14
+# text = Ivanka Trump etwa wurde als Beraterin eingesetzt.
+1	Ivanka	Ivanka	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+2	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	etwa	etwa	ADV	ADV	_	4	advmod	_	_
+4	wurde	werden	AUX	ADV	_	7	aux:pass	_	_
+5	als	als	ADP	KOKOM	_	6	case	_	_
+6	Beraterin	Beraterin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+7	eingesetzt	einsetzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 15
+# text = Sie ist auf Bildung und wirtschaftliches Empowerment von Frauen spezialisiert.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+3	auf	auf	ADP	APPR	_	4	case	_	_
+4	Bildung	Bildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+6	wirtschaftliches	wirtschaftlich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	_
+7	Empowerment	Empowerment	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	_
+8	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+9	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	_
+10	spezialisiert	spezialisieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Ihr Mann Jared Kushner nahm gar eine der wichtigsten Rollen im Trump-Universum ein.
+1	Ihr	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	2	det:poss	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Jared	Jared	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Kushner	Kushner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	nahm	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	gar	gar	ADV	ADV	_	5	advmod	_	_
+7	eine	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	obj	_	_
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	wichtigsten	wichtig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	10	amod	_	_
+10	Rollen	Rolle	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+11-12	im	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Trump	Trump	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Universum	Universum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	_
+16	ein	ein	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 17
+# text = Neben seiner Tätigkeit als Senior-Berater wurde er mit etlichen Sonderfunktionen betraut.
+1	Neben	neben	ADP	APPR	_	3	case	_	_
+2	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Tätigkeit	Tätigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+4	als	als	ADP	KOKOM	_	7	case	_	_
+5	Senior	Senior	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+7	Berater	Berater	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+8	wurde	werden	VERB	KON	_	0	root	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+10	mit	mit	ADP	$(	_	12	case	_	_
+11	etlichen	etlich	DET	PIAT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	12	det	_	_
+12	Sonderfunktionen	Sonderfunktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	_
+13	betraut	betraut	ADJ	VVPP	VerbForm=Part	8	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 18
+# text = So entwarf Kushner einen Friedensplan zur Auflösung des jahrzehntelangen Konflikts zwischen Israel und Palästinensern, obwohl er keinerlei außenpolitische Erfahrung hatte.
+1	So	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+2	entwarf	entwerfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Kushner	Kushner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Friedensplan	Friedensplan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6-7	zur	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Auflösung	Auflösung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	jahrzehntelangen	jahrzehntelang	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	11	amod	_	_
+11	Konflikts	Konflikt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	zwischen	zwischen	ADP	NE	Case=Dat|Gender=Masc|Number=Sing	13	case	_	_
+13	Israel	Israel	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
+14	und	und	CCONJ	NE	Foreign=Yes	15	cc	_	_
+15	Palästinensern	Palästinenser	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	22	punct	_	_
+17	obwohl	obwohl	SCONJ	CARD	NumType=Card	22	mark	_	_
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	keinerlei	keinerlei	PRON	PIAT	Definite=Ind|Polarity=Neg|PronType=Neg	21	det	_	_
+20	außenpolitische	außenpolitisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
+21	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+22	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Der Plan wurde im Sommer letzten Jahres präsentiert.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Plan	Plan	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	wurde	werden	AUX	ADV	_	9	aux:pass	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sommer	Sommer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+7	letzten	letzt	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	8	amod	_	_
+8	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	präsentiert	präsentieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# sent_id = 20
+# text = Donald Trump bezeichnete Jared Kushner erst im Juni diesen Jahres im Weißen Haus als "meinen Star".
+1	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	bezeichnete	bezeichnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Jared	Jared	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	Kushner	Kushner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+6	erst	erst	ADV	ADV	_	3	advmod	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Juni	Juni	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+10	diesen	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Dem	11	det	_	_
+11	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12-13	im	_	_	_	_	_	_	_	_
+12	in	in	ADP	APPR	_	15	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+14	Weißen	weiß	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	15	amod	_	_
+15	Haus	Haus	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+16	als	als	ADP	KOKOM	_	19	case	_	_
+17	"	"	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+18	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	19	det:poss	_	_
+19	Star	Star	PROPN	FM	Foreign=Yes	15	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 21
+# text = Und gerade er rückt angeblich gerade vom Präsidenten in einer zentralen Frage ab, berichtete CNN.
+1	Und	und	CCONJ	ADJD	_	4	cc	_	_
+2	gerade	gerade	ADV	ADV	_	4	advmod	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	rückt	rücken	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+5	angeblich	angeblich	ADJ	ADJD	_	13	amod	_	_
+6	gerade	gerade	ADV	ADV	_	13	advmod	_	_
+7-8	vom	_	_	_	_	_	_	_	_
+7	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Präsidenten	Präsident	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	_
+10	in	in	ADP	APPR	_	13	case	_	_
+11	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	zentralen	zentral	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	_
+13	Frage	Frage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+14	ab	ab	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	4	punct	_	_
+16	berichtete	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	CNN	CNN	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 22
+# text = Demnach haben zwei Quellen ausgesagt, dass Kushner seinem Schwiegervater dazu geraten habe, den Wahlsieg von Joe Biden anzuerkennen.
+1	Demnach	demnach	ADV	PAV	_	2	advmod	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	nummod	_	_
+4	Quellen	Quell	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	_
+5	ausgesagt	ausgesagen	ADJ	VVPP	VerbForm=Part	2	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+8	Kushner	Kushner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	10	det:poss	_	_
+10	Schwiegervater	Schwiegervater	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	_
+11	dazu	dazu	ADV	PAV	_	12	advmod	_	_
+12	geraten	geraten|raten	VERB	VVPP	VerbForm=Part	5	ccomp	_	_
+13	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	20	punct	_	_
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Wahlsieg	Wahlsieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+17	von	von	ADP	NE	Case=Acc|Gender=Masc|Number=Sing	18	case	_	_
+18	Joe	Joe	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
+19	Biden	Biden	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	_
+20	anzuerkennen	anzuerkennen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 23
+# text = Der Sprecher der Trump-Kampagne, Jason Miller, bestritt das hingegen in einem Tweet am Sonntagmorgen.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Trump	Trump	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Kampagne	Kampagne	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Jason	Jason	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+9	Miller	Miller	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	4	punct	_	_
+11	bestritt	bestreiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	_
+13	hingegen	hingegen	ADV	ADV	_	11	advmod	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Tweet	Tweet	NOUN	NE	Case=Dat	11	obl	_	_
+17-18	am	_	_	_	_	_	_	_	_
+17	an	an	ADP	APPR	_	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Sonntagmorgen	Sonntagmorgen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 24
+# text = "Jared hat @realDonaldTrump geraten, alle verfügbaren Rechtsmittel auszuschöpfen, um Genauigkeit zu gewährleisten".
+1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Jared	Jared	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	@realDonaldTrump	@realDonaldTrump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	geraten	geraten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	alle	alle	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	9	det	_	_
+8	verfügbaren	verfügbar	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	9	amod	_	_
+9	Rechtsmittel	Rechtsmittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+10	auszuschöpfen	auszuschöpfen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	um	um	ADP	KOUI	_	15	mark	_	_
+13	Genauigkeit	Genauigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+14	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	mark	_	_
+15	gewährleisten	gewährleisten	VERB	VVINF	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+16	"	"	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = Aber neben Kushner spricht sich offenbar auch die First Lady dafür aus, den gewählten Präsidenten Biden anzuerkennen.
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	neben	neben	ADP	NN	Case=Gen|Gender=Fem|Number=Plur	3	case	_	_
+3	Kushner	Kushner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	spricht	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	offenbar	offenbar	ADV	CARD	NumType=Card	4	advmod	_	_
+7	auch	auch	ADV	ADV	_	4	advmod	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	First	First	PROPN	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	amod	_	_
+10	Lady	Lady	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	dafür	dafür	PRON	PAV	_	4	obj	_	_
+12	aus	aus	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	gewählten	gewählt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	16	amod	_	_
+16	Präsidenten	Präsident	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+17	Biden	Biden	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	16	appos	_	_
+18	anzuerkennen	anzuerkennen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 26
+# text = Melania war nie eine gewöhnliche First Lady.
+1	Melania	Melania	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	war	sein	AUX	ADV	_	7	cop	_	_
+3	nie	nie	ADV	ADV	_	7	advmod	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	gewöhnliche	gewöhnlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	First	First	NOUN	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	amod	_	_
+7	Lady	Lady	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 27
+# text = Sie setzte sich zwar kaum in der Öffentlichkeit für politische oder gesellschaftliche Themen ein.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	setzte	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	zwar	zwar	ADV	ADV	_	2	advmod	_	_
+5	kaum	kaum	ADV	ADV	_	2	advmod	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Öffentlichkeit	Öffentlichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+9	für	für	ADP	APPR	_	13	case	_	_
+10	politische	politisch	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	13	amod	_	_
+11	oder	oder	CCONJ	XY	_	12	cc	_	_
+12	gesellschaftliche	gesellschaftlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+13	Themen	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	nmod	_	_
+14	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 28
+# text = Trotzdem bewies Melania wiederholt ihren eigenen Kopf: Zum Beispiel ging ihre erste Solo-Auslandsreise als First Lady ausgerechnet nach Afrika.
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	_
+2	bewies	beweisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	wiederholt	wiederholen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+5	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	_
+6	eigenen	eigen	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Kopf	Kopf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	4	punct	_	_
+9-10	Zum	_	_	_	_	_	_	_	_
+9	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+12	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+13	ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	17	det:poss	_	_
+14	erste	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	17	amod	_	_
+15	Solo	Solo	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	Auslandsreise	Auslandsreise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+18	als	als	ADP	KOKOM	_	20	case	_	_
+19	First	First	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	20	amod	_	_
+20	Lady	Lady	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
+21	ausgerechnet	ausgerechnet	VERB	ADV	_	12	conj	_	_
+22	nach	nach	ADP	CARD	_	23	case	_	_
+23	Afrika	Afrika	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 29
+# text = Der Kontinent, dessen Länder ihr Mann mal als "Shithole Countries" bezeichnete.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Kontinent	Kontinent	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	14	punct	_	_
+4	dessen	der	DET	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	5	det	_	_
+5	Länder	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
+6	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	7	det:poss	_	_
+7	Mann	Mann	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+8	mal	mal	ADV	ADV	_	7	advmod	_	_
+9	als	als	ADP	KOKOM	_	11	case	_	_
+10	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Shithole	Shithole	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+12	Countries	Countries	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	flat	_	SpaceAfter=No
+13	"	"	PUNCT	$(	_	11	punct	_	_
+14	bezeichnete	bezeichnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 30
+# text = Und auch während der Corona-Pandemie rief sie dazu auf, eine Maske zu tragen, obwohl ihr Ehemann die Pandemie bis heute leugnet und sich gegen Masken wehrt.
+1	Und	und	CCONJ	ADJD	_	8	cc	_	_
+2	auch	auch	ADV	ADV	_	5	advmod	_	_
+3	während	während	ADP	ADJA	Case=Acc|Gender=Masc|Number=Plur	5	case	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Corona	Corona	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Pandemie	Pandemie	PROPN	NN	Foreign=Yes	5	flat	_	_
+8	rief	rufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+10	dazu	dazu	ADV	PAV	_	8	advmod	_	_
+11	auf	auf	ADP	PTKVZ	_	8	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Maske	Maske	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+15	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	16	mark	_	_
+16	tragen	tragen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	25	punct	_	_
+18	obwohl	obwohl	SCONJ	CARD	NumType=Card	25	mark	_	_
+19	ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	20	det:poss	_	_
+20	Ehemann	Ehemann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Pandemie	Pandemie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+23	bis	bis	ADP	APPR	_	24	case	_	_
+24	heute	heute	ADV	ADV	_	25	advmod	_	_
+25	leugnet	leugnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+26	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	30	cc	_	_
+27	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	30	obj	_	_
+28	gegen	gegen	ADP	APPR	_	29	case	_	_
+29	Masken	Maske	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	30	obl	_	_
+30	wehrt	wehren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = Die First Lady hat aber Einfluss auf ihren Ehemann.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	First	First	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	Lady	Lady	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	aber	aber	CCONJ	ADV	_	6	cc	_	_
+6	Einfluss	Einfluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	auf	auf	ADP	APPR	_	9	case	_	_
+8	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	9	det:poss	_	_
+9	Ehemann	Ehemann	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 32
+# text = Das berichtet auch die CNN-Journalistin Kate Bennett in ihrer nicht autorisierten Biografie: "Sie ist die einzige, die ihm offen sagen kann, was sie denkt", schrieb Bennett.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	CNN	CNN	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Journalistin	Journalistin	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	_
+8	Kate	Kate	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	_
+9	Bennett	Bennett	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
+10	in	in	ADP	APPR	_	14	case	_	_
+11	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	14	det:poss	_	_
+12	nicht	nicht	PART	CARD	NumType=Card	13	advmod	_	_
+13	autorisierten	autorisierten	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	_
+14	Biografie	Biografie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+15	:	:	PUNCT	$.	_	20	punct	_	_
+16	"	"	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+17	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	einzige	einzig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	25	punct	_	_
+22	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	25	nsubj	_	_
+23	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
+24	offen	offen	ADV	NN	Case=Dat|Gender=Masc|Number=Plur	25	advmod	_	_
+25	sagen	sagen	VERB	VVINF	VerbForm=Inf	20	acl	_	_
+26	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	30	punct	_	_
+28	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	30	obj	_	_
+29	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	_
+30	denkt	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	SpaceAfter=No
+31	"	"	PUNCT	$(	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	$,	_	33	punct	_	_
+33	schrieb	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	conj	_	_
+34	Bennett	Bennett	PROPN	PTKVZ	_	33	obj	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 33
+# text = "Sie ist die einzige, die ihm Ratschläge und Meinungen sagen kann, die seinen entgegenlaufen, und das auch tut."
+1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	einzige	einzig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	12	nsubj	_	_
+8	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+9	Ratschläge	Ratschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	11	cc	_	_
+11	Meinungen	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	_
+12	sagen	sagen	VERB	VVINF	VerbForm=Inf	5	acl	_	_
+13	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	22	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
+16	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	17	det:poss	_	_
+17	entgegenlaufen	entgegenlaufen	NOUN	VVINF	VerbForm=Inf	22	obj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	22	punct	_	_
+19	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	22	cc	_	_
+20	das	der	PRON	PRELS	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	nsubj	_	_
+21	auch	auch	ADV	ADV	_	22	advmod	_	_
+22	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+24	"	"	PUNCT	$(	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = Nun soll sich Melania laut einer weiteren "CNN"-Quelle für ein Ende des Kampfes um die Wahl ausgesprochen haben.
+1	Nun	nun	ADV	ADV	_	21	advmod	_	_
+2	soll	sollen	AUX	NN	Case=Nom|Gender=Fem|Number=Sing	21	aux	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
+4	Melania	Melania	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nsubj	_	_
+5	laut	laut	ADP	APPR	_	9	case	_	_
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	weiteren	weit	ADJ	NN	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	_
+8	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	CNN	CNN	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+10	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	Quelle	Quelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	flat	_	_
+13	für	für	ADP	APPR	_	15	case	_	_
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Kampfes	Kampf	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	um	um	ADP	APPR	_	20	case	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+21	ausgesprochen	aussprechen	VERB	VVPP	VerbForm=Part	0	root	_	_
+22	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 35
+# text = Während Jared Kushner und Melania öffentlich die Entscheidung des Präsidenten unterstützen, den Rechtsweg zu beschreiten, wollen sie ihn scheinbar hinter den Kulissen davon abhalten, den Machtwechsel zu torpedieren.
+1	Während	während	ADP	KOUS	_	2	case	_	_
+2	Jared	Jared	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+3	Kushner	Kushner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	5	cc	_	_
+5	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	öffentlich	öffentlich	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	11	advmod	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Entscheidung	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Präsidenten	Präsident	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	unterstützen	unterstützen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	_
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Rechtsweg	Rechtsweg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+15	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	16	mark	_	_
+16	beschreiten	beschreiten	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	26	punct	_	_
+18	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+19	sie	sie	PRON	VVINF	VerbForm=Inf	26	nsubj	_	_
+20	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+21	scheinbar	scheinbar	ADJ	FM	Foreign=Yes	26	advmod	_	_
+22	hinter	hinter	ADP	APPR	_	24	case	_	_
+23	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	_
+24	Kulissen	Kulisse	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	26	nmod	_	_
+25	davon	davon	ADV	PAV	_	26	advmod	_	_
+26	abhalten	abhalt	ADJ	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	31	punct	_	_
+28	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Machtwechsel	Machtwechsel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+30	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	31	mark	_	_
+31	torpedieren	torpedieren	VERB	VVINF	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 36
+# text = Melania und Jared Kushner hätten über Möglichkeiten nachgedacht, wie Trump nachgeben könnte, ohne seine Niederlage ausdrücklich einzugestehen, so die US-amerikanische Zeitschrift "Politico".
+1	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
+3	Jared	Jared	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	Kushner	Kushner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	7	case	_	_
+7	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	obl	_	_
+8	nachgedacht	nachdenken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	11	case	_	_
+11	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
+12	nachgeben	nachgeben	VERB	VVINF	VerbForm=Inf	8	conj	_	_
+13	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	ohne	ohne	SCONJ	FM	Foreign=Yes	19	mark	_	_
+16	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	17	det:poss	_	_
+17	Niederlage	Niederlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+18	ausdrücklich	ausdrücklich	ADJ	ADJD	_	19	advmod	_	_
+19	einzugestehen	einzugestehen	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	23	punct	_	_
+21	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	23	advmod	_	_
+22	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	US-	US-	NOUN	$(	_	8	obl	_	SpaceAfter=No
+24	amerikanische	amerikanisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	25	amod	_	_
+25	Zeitschrift	Zeitschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nmod	_	_
+26	"	"	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+27	Politico	Politico	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	25	appos	_	SpaceAfter=No
+28	"	"	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# sent_id = 37
+# text = Allerdings gibt es auch Zweifel an diesen Berichten.
+1	Allerdings	allerdings	ADV	ADV	_	2	advmod	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	auch	auch	ADV	ADV	_	5	advmod	_	_
+5	Zweifel	Zweifel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	diesen	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	Berichten	Bericht	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 38
+# text = Melania twittert beispielsweise am Sonntag eher im Sinne von Donald Trump Strategie: "Das amerikanische Volk hat faire Wahlen verdient.
+1	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	twittert	twittern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	beispielsweise	beispielsweise	ADV	ADV	_	2	advmod	_	_
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+7	eher	eher	ADV	ADV	_	2	advmod	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+11	von	von	ADP	NE	Case=Dat|Gender=Masc|Number=Sing	12	case	_	_
+12	Donald	Donald	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	_
+13	Trump	Trump	PROPN	NE	Case=Dat|Number=Sing	12	flat	_	_
+14	Strategie	Strategie	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	12	flat	_	SpaceAfter=No
+15	:	:	PUNCT	$.	_	20	punct	_	_
+16	"	"	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+17	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+18	amerikanische	amerikanisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	19	amod	_	_
+19	Volk	Volk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+20	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+21	faire	fair	ADJ	NN	Case=Acc|Gender=Masc|Number=Plur	22	amod	_	_
+22	Wahlen	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+23	verdient	verdient	ADJ	VVFIN	VerbForm=Part	20	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 39
+# text = Jede legale - nicht illegale - Stimme sollte gezählt werden.
+1	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+2	legale	legal	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	_
+3	-	-	PUNCT	$(	_	2	punct	_	_
+4	nicht	nicht	PART	NN	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	5	advmod	_	_
+5	illegale	illegal	ADJ	NN	Case=Nom|Gender=Neut|Number=Plur	7	amod	_	_
+6	-	-	PUNCT	$(	_	5	punct	_	_
+7	Stimme	Stimme	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	_
+8	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	gezählt	zählen	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	werden	werden	AUX	NE	Case=Acc|Number=Plur	9	aux:pass	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 40
+# text = Wir müssen unsere Demokratie mit völliger Transparenz schützen.", schrieb sie.
+1	Wir	wir	PRON	ADJD	_	8	nsubj	_	_
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Poss=Yes	4	det:poss	_	_
+4	Demokratie	Demokratie	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	8	obj	_	_
+5	mit	mit	ADP	$(	_	7	case	_	_
+6	völliger	völliger	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	_
+7	Transparenz	Transparenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	schützen	schützen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+10	"	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	schrieb	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	_
+13	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 41
+# text = Auch zur Ansicht des Schwiegersohnes Jared Kushner gibt es Widersprüche innerhalb von CNN: Im Gegensatz zu den besagten Berichten, ist CNN-Journalist Jake Tapper der Meinung, Jared Kushner gehört zum Lager derjenigen, die Trump weiterhin raten, juristisch gegen die Wahl vorzugehen.
+1	Auch	auch	ADV	ADV	_	4	advmod	_	_
+2-3	zur	_	_	_	_	_	_	_	_
+2	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Ansicht	Ansicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Schwiegersohnes	Schwiegersohn	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Jared	Jared	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	appos	_	_
+8	Kushner	Kushner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+9	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	Widersprüche	Widerspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+12	innerhalb	innerhalb	ADP	APPR	_	14	case	_	_
+13	von	von	ADP	NE	Case=Dat|Gender=Masc|Number=Sing	14	case	_	_
+14	CNN	CNN	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	$.	_	18	punct	_	_
+16-17	Im	_	_	_	_	_	_	_	_
+16	In	in	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Gegensatz	Gegensatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+19	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	case	_	_
+20	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	besagten	besagt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	_
+22	Berichten	Bericht	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	29	punct	_	_
+24	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	29	cop	_	_
+25	CNN	CNN	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No
+26	-	-	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+27	Journalist	Journalist	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	25	flat	_	_
+28	Jake	Jake	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	25	flat	_	_
+29	Tapper	Tapper	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	_
+30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Meinung	Meinung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	$,	_	31	punct	_	_
+33	Jared	Jared	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	31	appos	_	_
+34	Kushner	Kushner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	33	flat	_	_
+35	gehört	gehören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+36-37	zum	_	_	_	_	_	_	_	_
+36	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	38	case	_	_
+37	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	38	det	_	_
+38	Lager	Lager	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	39	obl	_	_
+39	derjenigen	derjenigen	VERB	ADJA	Case=Dat|Gender=Neut|Number=Sing	35	acl	_	SpaceAfter=No
+40	,	,	PUNCT	$,	_	44	punct	_	_
+41	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Art	42	det	_	_
+42	Trump	Trump	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	44	nsubj	_	_
+43	weiterhin	weiterhin	ADV	ADV	_	44	advmod	_	_
+44	raten	raten	VERB	NE	Case=Acc|Number=Plur	9	parataxis	_	SpaceAfter=No
+45	,	,	PUNCT	$,	_	50	punct	_	_
+46	juristisch	juristisch	ADJ	ADJD	_	50	advmod	_	_
+47	gegen	gegen	ADP	APPR	_	49	case	_	_
+48	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	50	obl	_	_
+50	vorzugehen	vorgehen	VERB	VVIZU	VerbForm=Inf	44	conj	_	SpaceAfter=No
+51	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 42
+# text = Klar ist: Trumps Söhne Donald "Don" Jr. und Eric bestärken ihren Vater auch öffentlich.
+1	Klar	klar	ADJ	ADJD	_	14	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	:	:	PUNCT	$.	_	4	punct	_	_
+4	Trumps	Trumps	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	Söhne	Sohn	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
+7	"	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Don	Don	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+9	"	"	PUNCT	$(	_	8	punct	_	_
+10	Jr	Jr	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	1	punct	_	_
+12	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	13	cc	_	_
+13	Eric	Eric	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+14	bestärken	bestärken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	16	det:poss	_	_
+16	Vater	Vater	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nsubj	_	_
+17	auch	auch	ADV	ADV	_	14	advmod	_	_
+18	öffentlich	öffentlich	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	14	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 43
+# text = Die beiden erwachsenen Söhne haben die republikanischen Wähler dazu gedrängt, weiter Druck auszuüben und die Ergebnisse öffentlich abzulehnen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+2	beiden	beide	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	4	amod	_	_
+3	erwachsenen	erwachsen	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
+4	Söhne	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	republikanischen	republikanisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
+8	Wähler	Wähler	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+9	dazu	dazu	ADV	PAV	_	10	advmod	_	_
+10	gedrängt	drängen	ADJ	VVPP	VerbForm=Part	13	amod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	weiter	weit	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
+14	auszuüben	auszuüben	ADV	VVINF	VerbForm=Inf	19	advmod	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	17	cc	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
+17	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	_
+18	öffentlich	öffentlich	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	19	advmod	_	_
+19	abzulehnen	abzulehnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = 44
+# text = Auf Twitter ging Donald Trump Jr. sogar so weit und rief zum "totalen Krieg" um die Wahl auf: "Das Beste für Amerikas Zukunft wäre es, wenn Donald Trump über diese Wahl in den totalen Krieg zieht, um all den Betrug, das Schummeln (...) offenzulegen, das seit viel zu langer Zeit anhält", schrieb er am vergangenen Donnerstag.
+1	Auf	auf	ADP	APPR	_	2	case	_	_
+2	Twitter	Twitter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+6	Jr	Jr	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+8	sogar	sogar	ADV	ADV	_	3	advmod	_	_
+9	so	so	ADV	NE	Case=Dat|Number=Plur	3	advmod	_	_
+10	weit	weit	ADJ	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	3	advmod	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	12	cc	_	_
+12	rief	rief	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+13-14	zum	_	_	_	_	_	_	_	_
+13	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+15	"	"	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+16	totalen	total	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	_
+17	Krieg	Krieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	17	punct	_	_
+19	um	um	ADP	APPR	_	21	case	_	_
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Wahl	Wahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+22	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+23	:	:	PUNCT	$.	_	26	punct	_	_
+24	"	"	PUNCT	$(	_	26	punct	_	SpaceAfter=No
+25	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Beste	gut	NOUN	ADJA	Case=Nom|Gender=Neut|Number=Sing	66	obj	_	_
+27	für	für	ADP	APPR	_	29	case	_	_
+28	Amerikas	Amerika	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+29	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	nmod	_	_
+30	wäre	sein	AUX	ADJA	Case=Acc|Gender=Fem|Number=Sing	26	cop	_	_
+31	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	$,	_	43	punct	_	_
+33	wenn	wenn	SCONJ	VVFIN	_	43	mark	_	_
+34	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	_
+35	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	34	flat	_	_
+36	über	über	ADP	FM	Foreign=Yes	38	case	_	_
+37	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	38	det	_	_
+38	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	43	obl	_	_
+39	in	in	ADP	APPR	_	42	case	_	_
+40	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	totalen	total	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	42	amod	_	_
+42	Krieg	Krieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	43	obl	_	_
+43	zieht	ziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	SpaceAfter=No
+44	,	,	PUNCT	$,	_	55	punct	_	_
+45	um	um	ADP	KOUI	_	55	case	_	_
+46	all	all	PRON	PIAT	Definite=Ind|PronType=Ind	55	det	_	_
+47	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	Betrug	betrug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	55	nsubj	_	SpaceAfter=No
+49	,	,	PUNCT	$,	_	51	punct	_	_
+50	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	51	det	_	_
+51	Schummeln	Schummel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	48	appos	_	_
+52	(	(	PUNCT	$(	_	54	punct	_	SpaceAfter=No
+53	...	...	PUNCT	$(	_	54	punct	_	SpaceAfter=No
+54	)	)	PUNCT	$(	_	51	punct	_	_
+55	offenzulegen	offenzulegen	ADV	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	SpaceAfter=No
+56	,	,	PUNCT	$,	_	63	punct	_	_
+57	das	der	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	63	nsubj	_	_
+58	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Sing	59	case	_	_
+59	viel	viel	PRON	NE	Foreign=Yes	63	obl	_	_
+60	zu	zu	ADP	NN	Case=Acc|Gender=Masc|Number=Plur	62	case	_	_
+61	langer	lang	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	62	amod	_	_
+62	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	63	obl	_	_
+63	anhält	anhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	acl	_	SpaceAfter=No
+64	"	"	PUNCT	$(	_	55	punct	_	SpaceAfter=No
+65	,	,	PUNCT	$,	_	26	punct	_	_
+66	schrieb	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+67	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	66	nsubj	_	_
+68-69	am	_	_	_	_	_	_	_	_
+68	an	an	ADP	APPR	_	71	case	_	_
+69	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+70	vergangenen	vergangen	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	71	amod	_	_
+71	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	66	obl	_	SpaceAfter=No
+72	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# sent_id = 45
+# text = Die Söhne Don Jr. und Eric wurden von ihrem Vater bislang vor allem mit den Führungspositionen der "Trump Organization" betraut.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Söhne	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+3	Don	Don	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Jr	Jr	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	_
+6	und	und	CCONJ	NE	Foreign=Yes	7	cc	_	_
+7	Eric	Eric	PROPN	FM	Foreign=Yes	3	conj	_	_
+8	wurden	werden	AUX	FM	Foreign=Yes	23	aux:pass	_	_
+9	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+10	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	11	det:poss	_	_
+11	Vater	Vater	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	_
+12	bislang	bislingen	VERB	ADV	_	23	advmod	_	_
+13	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	14	case	_	_
+14	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	obl	_	_
+15	mit	mit	ADP	$,	NumType=Card	17	case	_	_
+16	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	17	det	_	_
+17	Führungspositionen	Führungsposition	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	23	obl	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	"	"	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Trump	Trump	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
+21	Organization	Organization	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	20	flat	_	SpaceAfter=No
+22	"	"	PUNCT	$(	_	20	punct	_	_
+23	betraut	betrauen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	_
+
+# sent_id = 46
+# text = Der Konzern regelt die Immobilienprojekte und baut und betreut Golfplätze.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Konzern	Konzern	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	regelt	regeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
+5	Immobilienprojekte	Immobilienprojekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	7	cc	_	_
+7	baut	bauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	10	cc	_	_
+9	betreut	betreuen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	amod	_	_
+10	Golfplätze	Golfplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 47
+# text = Politisch unterstützten die Söhne Trump und engagierten sich auch durch Wahlkampfauftritte für ihn.
+1	Politisch	politisch	ADJ	ADJD	_	2	advmod	_	_
+2	unterstützten	unterstützen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Söhne	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+5	Trump	Trump	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	7	cc	_	_
+7	engagierten	engagieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	auch	auch	ADV	ADV	_	7	advmod	_	_
+10	durch	durch	ADP	APPR	_	11	case	_	_
+11	Wahlkampfauftritte	Wahlkampfauftritte	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	_
+12	für	für	ADP	APPR	_	13	case	_	_
+13	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 48
+# text = Ein hohes politisches Berateramt hatten sie allerdings nicht inne.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+2	hohes	hoch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
+3	politisches	politisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
+4	Berateramt	Berateramt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	obj	_	_
+5	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+7	allerdings	allerdings	ADV	ADV	_	5	advmod	_	_
+8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+9	inne	inne	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 49
+# text = Ändert sich nun das Machtgefüge in der Familie?
+1	Ändert	ändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	_
+3	nun	nun	ADV	ADV	_	1	advmod	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Machtgefüge	Machtgefug	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 50
+# text = Setzt Trump nun mehr auf die Ansichten seiner zwei Söhne als auf die des Schwiegersohns Kushner?
+1	Setzt	setzen	ADJ	ADJD	_	2	amod	_	_
+2	Trump	Trump	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	nun	nun	ADV	ADV	_	4	advmod	_	_
+4	mehr	mehr	ADV	ADV	_	2	advmod	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Ansichten	Ansichten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nmod	_	_
+8	seiner	sein	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes	10	det:poss	_	_
+9	zwei	zwei	NUM	NE	Case=Gen|Gender=Masc|Number=Sing	10	nummod	_	_
+10	Söhne	Sohn	NOUN	NE	Case=Gen|Number=Sing	7	nmod	_	_
+11	als	als	ADP	KOKOM	_	7	xcomp	_	_
+12	auf	auf	ADP	APPR	_	16	case	_	_
+13	die	der	DET	PDS	Case=Nom|Number=Plur|PronType=Rel	16	det	_	_
+14	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Schwiegersohns	Schwiegersohn	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	16	amod	_	_
+16	Kushner	Kushner	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 51
+# text = Auch außerhalb von Trumps Familie, im Kreis der engsten Berater, gibt es wichtige Meinungen zum weiteren Vorgehen.
+1	Auch	auch	ADV	ADV	_	5	advmod	_	_
+2	außerhalb	außerhalb	ADP	ADV	_	5	case	_	_
+3	von	von	ADP	FM	Foreign=Yes	4	case	_	_
+4	Trumps	Trumps	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Kreis	Kreis	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	conj	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	engsten	engst	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
+12	Berater	Berater	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	5	punct	_	_
+14	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+16	wichtige	wichtig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	17	amod	_	_
+17	Meinungen	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	nsubj	_	_
+18-19	zum	_	_	_	_	_	_	_	_
+18	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+20	weiteren	weit	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	21	amod	_	_
+21	Vorgehen	vorgehen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 52
+# text = Den juristischen Kampf unterstützen laut "Politico" außer den Trump-Söhnen auch sein Stabschef Meadows, sein Anwalt Rudy Giuliani, die ehemalige Generalstaatsanwältin Floridas, Pam Bondi, und die langjährigen politischen Berater des Präsidenten, Corey Lewandowski und David Bossie.
+1	Den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	juristischen	juristisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	Kampf	Kampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	unterstützen	unterstützen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	laut	laut	ADP	ADJD	_	7	case	_	_
+6	"	"	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Politico	Politico	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+8	"	"	PUNCT	$(	_	7	punct	_	_
+9	außer	außer	ADP	APPR	_	11	case	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Trump	Trump	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	Söhnen	Sohn|Söhnen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	flat	_	_
+14	auch	auch	ADV	ADV	_	4	advmod	_	_
+15	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	16	det:poss	_	_
+16	Stabschef	Stabschef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+17	Meadows	Meadows	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	17	punct	_	_
+19	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	20	det:poss	_	_
+20	Anwalt	Anwalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+21	Rudy	Rudy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
+22	Giuliani	Giuliani	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	21	flat	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	26	punct	_	_
+24	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	ehemalige	ehemalig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	26	amod	_	_
+26	Generalstaatsanwältin	Generalstaatsanwältin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	appos	_	_
+27	Floridas	Florida	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	29	punct	_	_
+29	Pam	Pam	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	_
+30	Bondi	Bondi	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	29	flat	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	36	punct	_	_
+32	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	36	cc	_	_
+33	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+34	langjährigen	langjährig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	36	amod	_	_
+35	politischen	politisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	36	amod	_	_
+36	Berater	Berater	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	_
+37	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Präsidenten	Präsident	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	$,	_	40	punct	_	_
+40	Corey	Corey	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+41	Lewandowski	Lewandowski	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	40	flat	_	_
+42	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	43	cc	_	_
+43	David	David	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+44	Bossie	Bossie	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	43	flat	_	SpaceAfter=No
+45	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 53
+# text = Hingegen stellten sich einige Republikaner auch offen gegen den Amtsinhaber: Der ehemalige Gouverneur Chris Christie, ein langjähriger Freund des Präsidenten, sagte, das Zeitfenster, um Beweise für einen weit verbreiteten Wahlbetrug vorzulegen, schließe sich für Trump.
+1	Hingegen	hingegen	ADV	ADV	_	2	advmod	_	_
+2	stellten	stellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	Republikaner	Republikaner	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	_
+6	auch	auch	ADV	ADV	_	7	advmod	_	_
+7	offen	offen	ADV	NN	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	2	advmod	_	_
+8	gegen	gegen	ADP	APPR	_	10	case	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Amtsinhaber	Amtsinhaber	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+11	:	:	PUNCT	$.	_	14	punct	_	_
+12	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	ehemalige	ehemalig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
+14	Gouverneur	Gouverneur	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+15	Chris	Chris	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	14	appos	_	_
+16	Christie	Christie	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	langjähriger	langjährig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	_
+20	Freund	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+21	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Präsidenten	Präsident	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	24	punct	_	_
+24	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	27	punct	_	_
+26	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
+27	Zeitfenster	Zeitfenster	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	38	punct	_	_
+29	um	um	ADP	KOUI	_	38	mark	_	_
+30	Beweise	Beweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	38	obj	_	_
+31	für	für	ADP	APPR	_	35	case	_	_
+32	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+33	weit	weit	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	34	advmod	_	_
+34	verbreiteten	verbreitet	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	35	amod	_	_
+35	Wahlbetrug	Wahlbetrug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	38	nmod	_	_
+36	vorzulegen	vorzulegen	ADP	VVINF	VerbForm=Inf	38	mark	_	SpaceAfter=No
+37	,	,	PUNCT	$,	_	36	punct	_	_
+38	schließe	schließen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+39	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	38	obj	_	_
+40	für	für	ADP	APPR	_	41	case	_	_
+41	Trump	Trump	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 54
+# text = Dennoch scheint der Präsident noch lange nicht bereit zu sein, in irgendeiner Weise nachzugeben.
+1	Dennoch	dennoch	ADV	ADV	_	2	advmod	_	_
+2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	noch	noch	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	6	advmod	_	_
+6	lange	lange	ADV	ADV	_	2	advmod	_	_
+7	nicht	nicht	PART	CARD	NumType=Card	2	advmod	_	_
+8	bereit	bereit	ADJ	ADJD	_	2	xcomp	_	_
+9	zu	zu	PART	NN	Case=Nom|Number=Plur	8	mark	_	_
+10	sein	sein	AUX	VAINF	VerbForm=Inf	8	cop	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	irgendeiner	irgendein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	14	det	_	_
+14	Weise	Weise	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+15	nachzugeben	nachgeben	VERB	VVIZU	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newdoc id = doc3
+# sent_id = 1
+# text = Donald Trump, US-Präsident"Hallo, Erie - erinnert ihr euch noch an unseren Sieg?
+1	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	US	US	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+7	"	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Hallo	Hallo	PROPN	NE	Foreign=Yes	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Erie	Erie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+11	-	-	PUNCT	$(	_	10	punct	_	_
+12	erinnert	erinnern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	12	obj	_	_
+15	noch	noch	ADV	CARD	NumType=Card	12	advmod	_	_
+16	an	an	ADP	APPR	_	18	case	_	_
+17	unseren	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	18	det:poss	_	_
+18	Sieg	Sieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+19	?	?	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Was für ein Sieg.
+1	Was	was	PRON	FM	Foreign=Yes	4	nsubj	_	_
+2	für	für	ADP	APPR	_	4	case	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Sieg	Sieg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Und in vierzehn Tagen werden wir erneut Pennsylvania gewinnen – und vier weitere Jahre im Weißen Haus."
+1	Und	und	CCONJ	ADJD	_	9	cc	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	vierzehn	vierzehn	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+5	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	9	aux	_	_
+6	wir	wir	PRON	ADJD	_	9	nsubj	_	_
+7	erneut	erneut	ADJ	ADV	_	9	advmod	_	_
+8	Pennsylvania	Pennsylvania	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	gewinnen	gewinnen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+10	–	–	PUNCT	$.	_	14	punct	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	14	cc	_	_
+12	vier	vier	NUM	NE	Case=Acc|Gender=Masc|Number=Sing	14	nummod	_	_
+13	weitere	weit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	14	amod	_	_
+14	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	conj	_	_
+15-16	im	_	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	18	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+17	Weißen	weiß	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	18	amod	_	_
+18	Haus	Haus	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	9	punct	_	SpaceAfter=No
+20	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = Donald Trump mag sich siegessicher geben, die Realität sieht für ihn alles andere als gut rosig aus: Auch im Swing State Pennsylvania liegt er in den Umfragewerten hinter Joe Biden - der Bundesstaat mit seinen 20 Wahlleuten im Electoral College, dem Wahlkollegium, ist wichtig und daher hart umkämpft.Aushelfen im Wahlkampf-Endspurt sollte eigentlich die First Lady.
+1	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	mag	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+5	siegessicher	siegessich	PRON	ADJA	Case=Gen|Gender=Neut|Number=Plur	6	nsubj	_	_
+6	geben	geben	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Realität	Realität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+11	für	für	ADP	APPR	_	12	case	_	_
+12	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	nsubj	_	_
+14	andere	ander	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	15	nsubj	_	_
+15	als	als	ADP	KOKOM	_	10	xcomp	_	_
+16	gut	gut	ADJ	ADJD	_	17	advmod	_	_
+17	rosig	rosig	ADJ	ADJD	_	15	amod	_	SpacesAfter=\s 
+18	aus	aus	ADP	PTKVZ	_	15	case	_	SpaceAfter=No
+19	:	:	PUNCT	$.	_	23	punct	_	_
+20	Auch	Auch	ADV	ADV	_	23	advmod	_	_
+21-22	im	_	_	_	_	_	_	_	_
+21	in	in	ADP	APPR	_	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Swing	Swing	PROPN	NE	Foreign=Yes	10	nmod	_	_
+24	State	State	PROPN	NE	Foreign=Yes	23	flat	_	_
+25	Pennsylvania	Pennsylvania	PROPN	NE	Foreign=Yes	23	flat	_	_
+26	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+28	in	in	ADP	APPR	_	30	case	_	_
+29	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	Umfragewerten	Umfragewert	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Plur	26	obl	_	_
+31	hinter	hinter	ADP	APPR	_	32	case	_	_
+32	Joe	Joe	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	_
+33	Biden	Biden	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	32	flat	_	_
+34	-	-	PUNCT	$(	_	36	punct	_	_
+35	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Bundesstaat	Bundesstaat	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	flat	_	_
+37	mit	mit	ADP	$(	_	40	case	_	_
+38	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	40	det:poss	_	_
+39	20	20	NUM	CARD	NumType=Card	40	nummod	_	_
+40	Wahlleuten	Wahlleu	NOUN	NN	Case=Dat|Number=Plur	26	obl	_	_
+41-42	im	_	_	_	_	_	_	_	_
+41	in	in	ADP	APPR	_	43	case	_	_
+42	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	43	det	_	_
+43	Electoral	Electoral	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	40	nmod	_	_
+44	College	College	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	43	flat	_	SpaceAfter=No
+45	,	,	PUNCT	$,	_	47	punct	_	_
+46	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	47	det	_	_
+47	Wahlkollegium	Wahlkollegium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	43	appos	_	SpaceAfter=No
+48	,	,	PUNCT	$,	_	50	punct	_	SpacesAfter=\s 
+49	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	50	cop	_	_
+50	wichtig	wichtig	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	54	conj	_	_
+51	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	54	cc	_	_
+52	daher	daher	ADV	PAV	_	54	advmod	_	_
+53	hart	hart	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	54	amod	_	_
+54	umkämpft.Aushelfen	umkämpft.Aushelfe	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	64	nsubj	_	_
+55-56	im	_	_	_	_	_	_	_	_
+55	in	in	ADP	APPR	_	59	case	_	_
+56	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+57	Wahlkampf	Wahlkampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	59	compound	_	SpaceAfter=No
+58	-	-	PUNCT	$(	_	57	punct	_	SpaceAfter=No
+59	Endspurt	Endspurt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	54	nmod	_	_
+60	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	64	aux	_	_
+61	eigentlich	eigentlich	ADJ	ADV	_	64	advmod	_	_
+62	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+63	First	First	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	64	amod	_	_
+64	Lady	Lady	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+65	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Sie sollte in Pennsylvania auf der Bühne an Trumps Seite sein, doch Melania verzichtete auf den Trip – aus gesundheitlichen Gründen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Pennsylvania	Pennsylvania	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Bühne	Bühne	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	Trumps	Trumps	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+10	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+11	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	_
+13	doch	doch	CCONJ	KON	_	15	cc	_	_
+14	Melania	Melania	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	verzichtete	verzichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+16	auf	auf	ADP	APPR	_	18	case	_	_
+17	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	18	det	_	_
+18	Trip	Trip	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+19	–	–	PUNCT	$.	_	22	punct	_	_
+20	aus	aus	ADP	APPR	_	22	case	_	_
+21	gesundheitlichen	gesundheitlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	22	amod	_	_
+22	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Nach ihrer Covid-19-Erkrankung hatte sie offen über ihren Krankheitsverlauf und die "Achterbahn an Symptomen" berichtet;
+1	Nach	nach	ADP	APPR	_	5	case	_	_
+2	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+3	Covid-19	covid-19	NOUN	ADV	NumType=Card	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+5	Erkrankung	Erkrankung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
+6	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+8	offen	offen	VERB	NN	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	0	root	_	_
+9	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	11	case	_	_
+10	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	11	det:poss	_	_
+11	Krankheitsverlauf	Krankheitsverlauf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	15	cc	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Achterbahn	Achterbahn	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+16	an	an	ADP	APPR	_	17	case	_	_
+17	Symptomen	Symptomen	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	15	punct	_	_
+19	berichtet	berichten	VERB	VVPP	VerbForm=Part	8	ccomp	_	SpaceAfter=No
+20	;	;	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 7
+# text = sie und Sohn Barron sollen inzwischen negativ getestet sein.
+1	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
+3	Sohn	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	Barron	Barron	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	inzwischen	inzwischen	ADV	ADV	_	8	advmod	_	_
+7	negativ	negativ	ADJ	CARD	NumType=Card	8	advmod	_	_
+8	getestet	testen	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	sein	sein	AUX	VAINF	VerbForm=Inf	8	aux:pass	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Doch schon vorher hielt sich Melania auffällig zurück.Das war noch vor vier Jahren etwas anders.
+1	Doch	doch	CCONJ	KON	_	4	cc	_	_
+2	schon	schon	ADV	ADV	_	3	advmod	_	_
+3	vorher	vorher	ADV	ADV	_	4	advmod	_	SpacesAfter= 
+4	hielt	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	auffällig	auffällig	PROPN	ADJD	_	4	nsubj	_	_
+8	zurück.Das	zurück.Das	PROPN	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	flat	_	_
+9	war	sein	AUX	ADV	_	15	cop	_	_
+10	noch	noch	ADV	NE	Case=Dat|Gender=Fem|Number=Sing	15	advmod	_	_
+11	vor	vor	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	13	case	_	_
+12	vier	vier	NUM	NE	Case=Dat|Gender=Masc|Number=Sing	13	nummod	_	_
+13	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	obl	_	_
+14	etwas	etwas	ADV	ADV	_	15	advmod	_	_
+15	anders	anders	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Zu Beginn der Präsidentschaftskandidatur im Wahlkampf 2016 war sie häufiger an seiner Seite zu sehen – und zu hören:Melania Trump, 19.7.2016"Alle wollen Veränderung.
+1	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	case	_	_
+2	Beginn	Beginn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Präsidentschaftskandidatur	Präsidentschaftskandidatur	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Wahlkampf	Wahlkampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+8	2016	2016	NUM	CARD	NumType=Card	7	appos	_	_
+9	war	sein	AUX	ADV	_	16	aux:pass	_	_
+10	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+11	häufiger	häufig	ADJ	ADJD	_	16	advmod	_	_
+12	an	an	ADP	APPR	_	14	case	_	_
+13	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	14	det:poss	_	_
+14	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+15	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	mark	_	_
+16	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+17	–	–	PUNCT	$.	_	20	punct	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	20	cc	_	_
+19	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	mark	_	_
+20	hören	hören	VERB	VVINF	VerbForm=Inf	16	conj	_	SpaceAfter=No
+21	:	:	PUNCT	$.	_	22	punct	_	SpaceAfter=No
+22	Melania	Melania	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+23	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	22	flat	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	25	punct	_	_
+25	19.7.2016	19.7.2016	PROPN	NN	NumType=Card	22	appos	_	SpaceAfter=No
+26	"	"	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+27	Alle	alle	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	22	nmod	_	_
+28	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	Veränderung	Veränderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	parataxis	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 10
+# text = Donald ist der einzige, der sie liefert."
+1	Donald	Donald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	einzige	einzig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	der	der	PRON	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	nsubj	_	_
+7	sie	sie	PRON	NN	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	_
+8	liefert	liefern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+10	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 11
+# text = Doch diese Zeiten sind längst vorbei – und solche Bilder sind rar geworden.
+1	Doch	doch	ADP	KON	_	3	case	_	_
+2	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	Zeiten	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+4	sind	sein	AUX	ADJD	_	6	cop	_	_
+5	längst	längst	ADJ	ADV	_	6	advmod	_	_
+6	vorbei	vorbei	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	3	advmod	_	_
+7	–	–	PUNCT	$.	_	12	punct	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	12	cc	_	_
+9	solche	solch	PRON	ADJD	_	10	det	_	_
+10	Bilder	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+11	sind	sein	AUX	ADJD	_	12	cop	_	_
+12	rar	rar	ADJ	ADJD	_	6	conj	_	_
+13	geworden	werden	AUX	ADJA	Case=Nom|Gender=Masc|Number=Sing	12	aux:pass	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Seit geraumer Zeit meidet Melania die politische Bühne.
+1	Seit	seit	ADP	APPR	_	3	case	_	_
+2	geraumer	geraum	ADJ	ADJA	_	3	amod	_	_
+3	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	meidet	meidet	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Melania	Melania	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	politische	politisch	ADJ	NE	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
+8	Bühne	Bühne	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Dieses Mal muss Trump seine Auftritte allein absolvieren.
+1	Dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	Mal	Mal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obl	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	Trump	Trump	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpacesAfter=\s 
+5	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	_
+6	Auftritte	Auftritt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+7	allein	allein	ADJ	ADV	_	8	advmod	_	_
+8	absolvieren	absolvieren	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 14
+# text = Und die verlaufen auch nicht immer nach Plan: in Pennsylvania fiel recht symbolträchtig zu guter Letzt auch noch das Mikrofon aus.
+1	Und	und	CCONJ	ADJD	_	3	cc	_	_
+2	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	3	nsubj	_	_
+3	verlaufen	verlaufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
+4	auch	auch	ADV	ADV	_	3	advmod	_	_
+5	nicht	nicht	PART	CARD	NumType=Card	3	advmod	_	_
+6	immer	immer	ADV	ADV	_	5	advmod	_	_
+7	nach	nach	ADP	ADJA	_	8	case	_	_
+8	Plan	Plan	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	3	punct	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Pennsylvania	Pennsylvania	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+12	fiel	fallen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	recht	recht	ADV	NN	Case=Dat|Gender=Masc|Number=Sing	12	advmod	_	_
+14	symbolträchtig	symbolträchtig	ADJ	ADJD	_	12	advmod	_	_
+15	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	case	_	_
+16	guter	gut	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	_
+17	Letzt	letzt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+18	auch	auch	ADV	ADV	_	12	advmod	_	_
+19	noch	noch	ADV	CARD	NumType=Card	12	advmod	_	_
+20	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Mikrofon	Mikrofon	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+22	aus	aus	ADP	PTKVZ	_	12	compound:prt	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+
