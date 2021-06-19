@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-https://github.com/tpetric7/Reading-indices
+https://github.com/tpetric7/Texts-about-women
 
 Quantitative analysis of German news articles about women using R packages (quanteda, tidytext and other).
 
