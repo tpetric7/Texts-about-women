@@ -1,0 +1,7 @@
+"0","set.seed(1322)"
+"0","library(wordcloud2)"
+"0","lems <- as.data.frame(lemmas_freq)"
+"0","colnames(lems) <- c(""word"", ""freq"")"
+"0","lems$word <- as.character(lems$word)"
+"0","lems$freq <- as.numeric(lems$freq)"
+"0","wordcloud2(lems, shape = ""star"")"

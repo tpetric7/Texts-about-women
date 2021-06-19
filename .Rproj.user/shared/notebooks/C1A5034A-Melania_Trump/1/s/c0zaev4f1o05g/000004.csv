@@ -1,0 +1,4 @@
+"0",""
+"0","# 1. Open jpeg file"
+"0","jpeg(""pictures/melania_fcm1.jpg"", "
+"0","     width = 840, height = 535)"

@@ -1,0 +1,8 @@
+"0","xlems <- tokens(x$lemma, remove_numbers = T, remove_punct = T, remove_symbols = T, remove_url = T, remove_separators = T)"
+"2","NA is replaced by empty string"
+"0","dfm_xlems <- dfm(xlems, remove = stoplist_de)"
+"2","'remove' is deprecated; use dfm_remove() instead"
+"0","set.seed(1322)"
+"0","topfeat <- as.data.frame(topfeatures(dfm_xlems,200))"
+"0","topfeat <- rownames_to_column(topfeat, var = ""word"")"
+"0","wordcloud2(topfeat, shape = ""circle"")"

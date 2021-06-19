@@ -1,0 +1,9 @@
+"0","set.seed(1320)"
+"0","library(wordcloud2)"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"0","topfeat <- as.data.frame(topfeatures(dfm_mel,100))"
+"0","topfeat <- rownames_to_column(topfeat, var = ""word"")"
+"0","wordcloud2(topfeat)"

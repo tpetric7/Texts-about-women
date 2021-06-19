@@ -1,0 +1,2 @@
+"0","# 2. Create a plot"
+"0","textplot_network(top_fcm, min_freq = 0.1, edge_alpha = 0.8, edge_size = 5)"
