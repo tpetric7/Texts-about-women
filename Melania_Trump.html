@@ -364,9 +364,9 @@ file_model = &quot;german-gsd-ud-2.5-191206.udpipe&quot;
 udmodel_german &lt;- udpipe_load_model(file_model)
 
 x &lt;- udpipe_annotate(udmodel_german, x = texts(corp_mel[1:3]), trace = TRUE)</code></pre>
-<pre><code>## 2021-06-19 21:23:00 Annotating text fragment 1/3
-## 2021-06-19 21:23:00 Annotating text fragment 2/3
-## 2021-06-19 21:23:01 Annotating text fragment 3/3</code></pre>
+<pre><code>## 2021-06-19 21:35:26 Annotating text fragment 1/3
+## 2021-06-19 21:35:27 Annotating text fragment 2/3
+## 2021-06-19 21:35:28 Annotating text fragment 3/3</code></pre>
 <pre class="r"><code>x &lt;- as.data.frame(x)
 str(x)</code></pre>
 <pre><code>## &#39;data.frame&#39;:    2107 obs. of  14 variables:
