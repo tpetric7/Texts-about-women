@@ -13,5 +13,5 @@ https://github.com/tpetric7/Texts-about-women
 
 Quantitative analysis of German news articles about women using R packages (quanteda, tidytext and other).
 
-- [Melania Trump](Melania-Trump.Rmd)
-- Melania Trump: [html](docs/Melania-Trump.html)
+- [Melania Trump](Melania_Trump.Rmd)
+- Melania Trump: [html](docs/Melania_Trump.html)
